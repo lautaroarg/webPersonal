@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lautaro Soto - Programador</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="menu">
+                <p>LAUTARO SOTO</p>
+                <img class="menu-icon" src="menu.png" alt="">
+                <nav>
+                <ul class="nav-lista">
+                    <li class="primer-elemento"><a href="#sobremi">Sobre mi</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#mistrabajos">Portfolio</a></li>
+                    <li><a href="#pq">¿Por que trabajar conmigo?</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                </nav>
+            </div>
+            <div class="titular">
+                <h1>Lautaro Soto</h1>
+                <h2>Desarrollador Web</h3>
+                    <a class="vmistrabajos" href="#mistrabajos">Ver mis trabajos</a>
+            </div>
+     </div>
+    </header>
+    <section>
+        <h3 id="sobremi">Sobre mi </h3>
+        <div class="contenedor-sobremi">
+        <img class="imagen-yo" src="yo.jpg" alt="Lautaro Soto" title="Lautaro Soto">
+            <div class="contenedor-parrafo-boton">
+                <p>Mi nombre es Lautaro soto y soy programador. Me dedico a la  creacion de paginas web para empresas o particulares, y tambien a desarrollar aplicaciones de escritorio para solucionar problemas.</p>
+                <p>Utilizo mis conocimientos en HTML5, CSS3, JavaScript, C# , SqlServer, para dar la mejor solucion a tus proyectos.</p>
+                <p>Si necesitas uno de mis servicios, no dudes en consultarme por cualquier medio que tengo disponible. 
+                    
+                </p>
+                
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contenedor">
+            <h3 id="servicios">Servicios</h3>
+                <div class="contenedor-servicio">
+                    <div class="servicio violeta">
+                        <h4>Diseño web</h4>
+                        <p>Creacion de paginas web atractivas y funcionales con el objetivo de sastifacer todas tus expectativas. La importancia de esto es fundamental para atraer tus visitantes, y que vean lo mejor de tu empresa</p>
+                        <img src="monitor.png">
+                    </div>
+
+                    <div class="servicio celeste">
+                            <h4>Responsive Design</h4>
+                            <p>Hoy en dia una pagina web se ve en multitud de dispositivos como tablets, celulares, notebooks, etc. Por eso me aseguro de que tu sitio web sea compatible con todos los tamaños de pantalla de esta epoca.</p>
+                            <img src="mobile.png">
+                    </div>
+
+                    <div class="servicio violeta">
+                                <h4>SEO </h4>
+                                <p>Al crear sitios web, tengo muy en cuenta la optimizacion de motores de busqueda(SEO). Llevo a cabo practicas de SEO estandar en cada pagia del sitio web, lo que permite que tu sitio web tenga una clasificacion mas alta en los resultados de google y asi generar mas trafico a la web.</p>
+                                <img src="seo.png">
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section>
+        <div class="contenedor">
+            <h3 id="mistrabajos">Mis trabajos</h3>
+            <div class="owl-carousel">
+                <div> <img src="PC1.jpg" alt=""> </div>
+                <div> <img src="PC2.jpg" alt=""> </div>
+                <div> <img src="PC3.jpg" alt=""> </div>
+              </div>
+        </div>
+    </section>
+    <section>
+        <div class="contenedor">
+            <h3 id="pq">¿Por que trabajar conmigo?</h3>
+                <div class="contenedor-porque">
+                    <div class=" contenedor-simple">
+                        <img src="velocidad.png" alt="">
+                        <h4>Velocidad</h4>
+                        <p>Me aseguro que tu web cargue entre 2 y 4 segundos (depende de la cantidad de contenido del sitio). Si una web tarda mas de 5 segundos en cargar, el 70% de los usuarios la cierra y no vuelve a entrar mas</p>
+                    </div>
+                    <div class=" contenedor-simple">
+                        <img src="mantenimiento.png" alt="">
+                        <h4>Mantenimiento</h4>
+                        <p>Matengo una comunicacion constante con mis clientes para modificar el contenido y para cualquier duda/consulta que tenga</p>
+                    </div>
+                    <div class=" contenedor-simple">
+                        <img src="mobile-icon.png" alt="">
+                        <h4>Mobile Priority</h4>
+                        <p>Cada vez mas personas navegan desde sus celulares en cualquier parte del mundo. Me aseguro de que tu web este optimizado para cualquier tipo de dispositivo movil</p>
+                    </div>
+                </div>
+        </div>
+    </section >
+    <section id="que-esperas">
+        <div class="contenedor">
+            <h3 id="contacto"> ¿Que esperas para tener tu pagina web?</h3>
+            <a class="vmistrabajos" href="https://wa.me/+5493513980399">CHARLEMOS</a>
+        </div>
+    </section>
+
+    <section id="wspp">
+    <a href="https://wa.me/+5493513980399">
+        <img src="whatsapp.png" alt="">
+    </a>
+    
+    </section>
+    
+
+
+
+<script src="owlcarousel/jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+
+$('.menu-icon').click(function(){
+$('header nav').slideToggle();
+
+})
+</script>
+</body>
+</html>
