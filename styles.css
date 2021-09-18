@@ -134,7 +134,7 @@ margin: 0px;
     color:#fff;
     margin-bottom: 40px;
 }
-#que-esperas a{
+#vmistrabajos{
     padding: 15px 45px 15px 45px;
 }
 #wspp a{
@@ -148,6 +148,29 @@ margin: 0px;
 .menu-icon{
     display: none;
 }
+.redes{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.redes-simple{
+    display: inherit;
+    align-items: center;
+}
+.redes-simple p{
+    margin: 0px;
+}
+.redes-simple p a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 3px;
+    
+}
+.redes-simple img{
+    width: 40px;
+}
+
 @media(max-width:480px  ){
    nav{
        position: absolute;
